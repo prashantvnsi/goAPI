@@ -1,8 +1,10 @@
 package controllers
 
 import (
+	"net/http"
 	"github.com/gin-gonic/gin"
-	"models"
+	"github.com/prashantvnsi/goAPI/models"
+	//"../models"
 )
 
 // GET /group

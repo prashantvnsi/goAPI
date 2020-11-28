@@ -2,8 +2,10 @@ package main
 
 import (
   "github.com/gin-gonic/gin"
-  "github.com/rahmanfadhil/gin-bookstore/models"
-  "github.com/rahmanfadhil/gin-bookstore/controllers"
+  //"./controllers"
+  //"./models"
+  "github.com/prashantvnsi/goAPI/models"
+  "github.com/prashantvnsi/goAPI/controllers"
 )
 
 func main() {
@@ -12,8 +14,8 @@ func main() {
   /*r.GET("/", func(c *gin.Context) {
     c.JSON(http.StatusOK, gin.H{"data": "hello world"})    
   })*/
-
   models.ConnectDatabase()
+  //models.ConnectDatabase()
 
   r.GET("/groups", controllers.FindGroups)
 

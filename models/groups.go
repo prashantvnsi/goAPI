@@ -1,8 +1,7 @@
 package models
 
 import (
-	"github.com/jinzhu/gorm"
-	"members"
+	//"github.com/jinzhu/gorm"
 )
 
 type Group struct {

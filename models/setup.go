@@ -13,7 +13,6 @@ func ConnectDataBase() {
   if err != nil {
     panic("Failed to connect to database!")
   }
-
   database.AutoMigrate(&Members{}, &Group{})
 
   DB = database

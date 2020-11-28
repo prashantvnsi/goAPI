@@ -1,7 +1,7 @@
-package members
+package models
 
 import (
-	"github.com/jinzhu/gorm"
+	//"github.com/jinzhu/gorm"
 )
 
 type Members struct{
